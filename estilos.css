@@ -53,16 +53,17 @@
 }
 
 .n-product {
-    margin-bottom: 7px;
+    /* margin-bottom: 7px; */
     color: white;
     font-size: 40px;
     font-family: 'Josefin Slab';
     background-color: #000;
     border-radius: 10%;
-    height: 40px;
+    height: 50px;
     width: 150px;
     font-weight: bold;
-
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -136,7 +137,7 @@
 
 .contenedor {
     display: flex;
-    background-color: #C4C1C1;
+    background-color: teal;
     text-align: center;
     align-items: center;
     flex-direction: column;
@@ -305,6 +306,9 @@ footer {
         height: 90px;
     }.brand{
         font-size: 20px;
+    }.n-product{
+        font-size: 50px;
+        width: 200px;
     }
 
 }
