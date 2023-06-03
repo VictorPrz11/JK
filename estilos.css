@@ -203,6 +203,23 @@ footer {
     font-weight: 500;
 
 }
+.a {
+    
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .a:hover {
+    background-color: #333;
+    color: #fff;
+  }
 
 .social-media {
     width: 60%;
