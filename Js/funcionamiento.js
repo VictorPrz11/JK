@@ -73,3 +73,19 @@ sliderPrev1.addEventListener('click', function() {
       move1 -= slideWidth1;
       sliderContent1.style.transform = 'translateX(-' + move1 + 'px)';
     }});}
+    const hamburguer = document.querySelector('.menunav');
+const menu = document.querySelector('.menu-navegacion');
+
+//console.log(menu);
+//console.log(hamburguer);
+
+hamburguer.addEventListener('click',()=>{
+    menu.classList.toggle("spread");
+})
+
+window.addEventListener('click',e=>{
+    if(menu.classList.contains("spread")
+    &&e.target!=menu && e.target!=hamburguer){
+        menu.classList.toggle('spread');
+    }
+})

@@ -70,7 +70,7 @@
 }
 
 .row {
-    display: flex;
+    display: flex; 
     /* Establece el contenedor como una caja flexible */
     justify-content: center;
     /* Centra los elementos horizontalmente */
@@ -137,6 +137,23 @@
     margin: 0 auto;
 
 }
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px  rgba(0,0,0,.5);
+    border-radius: 10px;
+    z-index: 9999;
+
+}
 
 .contenedor {
     display: flex;
@@ -151,6 +168,9 @@
 
 }
 
+.spread{
+    transform: translate(0);
+}
 details {
     margin-bottom: 40px;
 }
@@ -203,17 +223,35 @@ footer {
     font-weight: 500;
 
 }
+.menunav{
+   
+    z-index: 9999;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+   
+  
+}
 .a {
     
     text-decoration: none;
-    color: #333;
-    font-family: Arial, sans-serif;
+    color: white;
+    font-family: 'Josefin Slab';
     font-weight: bold;
+    font-size: 20px;
+
     padding: 10px;
     border: 2px solid #333;
     border-radius: 5px;
-    background-color: #f1f1f1;
+    background-color: black;
     transition: background-color 0.3s, color 0.3s;
+    width: 90%;
   }
 
   .a:hover {
@@ -280,6 +318,9 @@ footer {
     .elipse {
         width: 90px;
         height: 90px;
+    }
+    .a{
+        
     }
 
     .titulo {
