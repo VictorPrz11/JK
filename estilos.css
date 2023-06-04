@@ -245,9 +245,7 @@ footer {
     font-family: 'Josefin Slab';
     font-weight: bold;
     font-size: 20px;
-
     padding: 10px;
-    
     border-radius: 5px;
     background-color: black;
     transition: background-color 0.3s, color 0.3s;
@@ -321,8 +319,6 @@ footer {
     }
     .menu-navegacion{
         width: 50%;
-       border-radius: 0px;
-      
     }
     .a{
         
