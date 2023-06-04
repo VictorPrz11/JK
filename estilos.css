@@ -319,10 +319,19 @@ footer {
         width: 90px;
         height: 90px;
     }
+    .menu-navegacion{
+        width: 50%;
+       border-radius: 0px;
+      
+    }
     .a{
         
+        width: 80%;
+        margin-top: 2px;
+       
+    }.menunav{
+        right: 8px;
     }
-
     .titulo {
         font-size: 0;
     }
